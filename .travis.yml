@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "12"
 addons:
-  firefox: stable
+  chrome: stable
 sudo: required
 before_script:
   - "sudo chown root /opt/google/chrome/chrome-sandbox"
